@@ -166,6 +166,7 @@
     input {
       background-color: #eee;
       border: none;
+      color: #222;
       padding: 8px 15px;
       margin: 6px 0;
       width: calc(100% - 30px);
