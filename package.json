@@ -1,0 +1,45 @@
+{
+  "name": "queue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.1",
+    "buefy": "^0.9.4",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "css-loader": "^5.0.1",
+    "express": "^4.17.1",
+    "firebase": "^8.2.1",
+    "jquery": "^3.5.1",
+    "mongodb": "^3.6.3",
+    "vue": "^2.6.12",
+    "vue-quick-menu": "^1.0.7",
+    "vue-router": "^3.2.0",
+    "vue2-google-maps": "^0.10.7",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.6",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
